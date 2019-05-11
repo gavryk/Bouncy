@@ -1,0 +1,48 @@
+#testimonials {
+  background-color: #f3f3f3;
+  padding-bottom: 80px;
+  .quotes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #fff;
+    overflow: hidden;
+    padding: 5%;
+    .author_avatar {
+      img {
+        border-radius: 50%;
+      }
+    }
+    .main_quote {
+      display: flex;
+      .quote_wrapper {
+        padding-left: 65px;
+        .author {
+          display: flex;
+          flex-direction: column;
+          .author_nick-name {
+            text-transform: uppercase;
+            color: #19bd9a;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .btn-slide_quote {
+      margin-top: 20px;
+      button {
+        padding: 5px;
+        border: 1px solid #19bd9a;
+        background: none;
+        border-radius: 50%;
+        outline: none;
+        &:hover {
+          background-color: #19bd9a;
+        }
+        &:focus {
+          background-color: #19bd9a;
+        }
+      }
+    }
+  }
+}

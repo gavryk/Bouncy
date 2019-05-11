@@ -1,0 +1,86 @@
+#team {
+  .team_wrapper {
+    .teammate_photo {
+      width: 300px;
+      height: 400px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      transition: .7s ease-out;
+    }
+    .teammate-name {
+      text-align: right;
+      border-right: 5px solid rgb(0, 165, 140);
+      padding-right: 15px;
+      margin-bottom: 50px;
+      h3 {
+        padding: 0;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+      }
+      span {
+        font-style: italic;
+        letter-spacing: .2rem;
+      }
+    }
+    .teammate-skills {
+      padding-right: 25px;
+      margin-top: 50px;
+      .description {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0;
+      }
+      .progress {
+        height: 10px;
+        margin-top: 15px;
+        .progress-bar {
+          background-color: rgb(0, 165, 140);
+        }
+      }
+    }
+  }
+  .team_btns {
+    text-align: center;
+    margin-top: 35px;
+    .circle_btn {
+      margin: 20px 5px;
+      cursor: pointer;
+      padding: 3px 25px;
+      border: none;
+      background: rgba(0, 0, 0, .5);
+      outline: none;
+      &:hover {
+        background-color: rgba(0, 165, 140, 0.9);
+      }
+      &:focus {
+        background-color: #19bd9a;
+      }
+    }
+  }
+  .team-contact {
+    background: url('../img/team_contact.jpg') no-repeat center / cover;
+    padding: 55px 0;
+    text-align: center;
+    h3 {
+      color: #fff;
+    }
+    a {
+      display: inline-block;
+      color: #fff;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 5px 25px;
+      border-radius: 25px;
+      margin-top: 15px;
+      transition: .7s ease-out;
+      &:hover {
+        color: #000;
+        background-color: #19bd9a;
+        border-color: #19bd9a;
+        transition: .7s ease-out;
+      }
+    }
+  }
+}

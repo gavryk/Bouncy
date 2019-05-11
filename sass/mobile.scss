@@ -1,0 +1,149 @@
+@media (max-width: 992px) {
+    .logo {
+        text-align: center;
+    }
+    #team_quote {
+        .iMac_img {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #price {
+        .price_cards {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            .option {
+                margin: 5px;
+            }
+        }
+    }
+    header {
+        .banner {
+            #down {
+                display: none;
+            }
+        }
+        .mobile_head {
+            background-color: rgba(0, 165, 140, 0.9);
+            padding-top: 0;
+            transition: 1s ease-out;
+        }
+        .head {
+            transition: 1s ease-out;
+            .menu {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: rgba(0, 165, 140, 0.9);
+                transform: translateY(-120%);
+                transition: 1s ease-out;
+                opacity: 0;
+                z-index: 10;
+                position: relative;
+                top: 35px;
+                a {
+                    text-align: center;
+                    width: 100%;
+                    padding: 15px 0;
+                    border: none;
+                }
+                .mobile_hover {
+                    background-color: white;
+                    text-align: center;
+                    color: #000;
+                    width: 100%;
+                    display: inline-block;
+                }
+            }
+            .menu-active {
+                opacity: 1;
+                transform: translateY(0%);
+                transition: 1s ease-out;
+            }
+            .burger-active {
+                span {
+                    &:first-child {
+                        transform-origin: right;
+                        transform: rotate(-30deg);
+                        transition: .8s ease-out;
+                    }
+                    &:nth-child(2) {
+                        opacity: 0;
+                    }
+                    &:last-child {
+                        transform-origin: right;
+                        transform: rotate(33deg);
+                        transition: .8s ease-out;
+                    }
+                }
+            }
+            #burger {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                position: absolute;
+                top: -25px;
+                right: 5%;
+                width: 25px;
+                height: 25px;
+                background: none;
+                border: none;
+                outline: none;
+                z-index: 2;
+                perspective: 1000px;
+                span {
+                    background-color: #fff;
+                    width: 25px;
+                    height: 1.5px;
+                    display: block;
+                    z-index: 0;
+                    transition: .8s ease-out;
+                }
+            }
+        }
+    }
+    #featured {
+        .featured_projects {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    #service {
+        .service_options {
+            display: flex;
+            flex-direction: column;
+            .progress_bars {
+                margin-top: -40px;
+            }
+        }
+    }
+    #portfolio {
+        .portfolio_items {
+            .prtf_colmn {
+                a {
+                    &:after {
+                        transform: translateY(-100%);
+                    }
+                    i {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+    #testimonials {
+        .quotes {
+            .author_avatar {
+                text-align: center;
+            }
+            .main_quote {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}

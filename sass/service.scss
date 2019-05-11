@@ -1,0 +1,64 @@
+#service {
+    padding-bottom: 100px;
+    .service_options {
+        display: flex;
+        align-items: center;
+        margin-top: 70px;
+        width: 100%;
+        .service_tools {
+            display: flex;
+            .service_icons {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                i {
+                    color: white;
+                    font-size: 26px;
+                    background-color: #81868e;
+                    border-radius: 50%;
+                    padding: 15px;
+                    margin: 10px 0;
+                    transition: .8s ease-out;
+                    cursor: pointer;
+                    &:hover {
+                        transition: .8s ease-out;
+                        background-color: #19bd9a;
+                    }
+                }
+            }
+            .service_text {
+                margin-left: 35px;
+                padding-top: 35px;
+                h3 {
+                    font-size: 20px;
+                    font-weight: 100;
+                }
+                p {
+                    margin: 60px 0;
+                }
+            }
+        }
+        .progress_bars {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .box {
+                .chart {
+                    position: relative;
+                    width: 110px;
+                    height: 110px;
+                    margin: 0 auto;
+                    text-align: center;
+                    font-size: 30px;
+                    line-height: 110px;
+                    canvas {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+}

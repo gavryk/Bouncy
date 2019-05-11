@@ -1,0 +1,38 @@
+footer {
+  text-align: center;
+  padding: 80px 0;
+  .logo {
+    a {
+      color: #000;
+      font-size: 32px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+  .footer_icon {
+    a {
+      margin: 0 10px;
+      color: #fff;
+      .fab {
+        display: inline-block;
+        padding: 10px;
+        border-radius: 50%;
+      }
+      .fa-facebook-f {
+        background-color: #3b5998;
+      }
+      .fa-twitter {
+        background-color: #26a6d1;
+      }
+      .fa-linkedin-in {
+        background-color: #0e76a8;
+      }
+      .fa-instagram {
+        background-color: #3f729b;
+      }
+      .fa-vimeo-v {
+        background-color: #86c9ef;
+      }
+    }
+  }
+}

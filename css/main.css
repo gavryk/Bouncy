@@ -164,13 +164,13 @@ header {
       transition: 1s ease-out; }
     header .head .burger-active span:first-child {
       transform-origin: right;
-      transform: rotate(-30deg);
+      transform: rotate(-35deg);
       transition: .8s ease-out; }
     header .head .burger-active span:nth-child(2) {
       opacity: 0; }
     header .head .burger-active span:last-child {
       transform-origin: right;
-      transform: rotate(33deg);
+      transform: rotate(35deg);
       transition: .8s ease-out; }
     header .head #burger {
       display: flex;
@@ -187,6 +187,7 @@ header {
       z-index: 2;
       perspective: 1000px; }
       header .head #burger span {
+        margin-top: 5px;
         background-color: #fff;
         width: 25px;
         height: 1.5px;

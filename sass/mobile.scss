@@ -91,7 +91,7 @@
                 span {
                     &:first-child {
                         transform-origin: right;
-                        transform: rotate(-30deg);
+                        transform: rotate(-35deg);
                         transition: .8s ease-out;
                     }
                     &:nth-child(2) {
@@ -99,7 +99,7 @@
                     }
                     &:last-child {
                         transform-origin: right;
-                        transform: rotate(33deg);
+                        transform: rotate(35deg);
                         transition: .8s ease-out;
                     }
                 }
@@ -119,6 +119,7 @@
                 z-index: 2;
                 perspective: 1000px;
                 span {
+                    margin-top: 5px;
                     background-color: #fff;
                     width: 25px;
                     height: 1.5px;

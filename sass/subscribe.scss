@@ -4,13 +4,16 @@
   padding-bottom: 80px;
   .subscribe_input {
     text-align: center;
+    label {
+      width: 100%;
+    }
     input {
       background-color: transparent;
       border: 1px solid rgba(0, 165, 140, 0.9);
       color: #fff;
       outline: none;
       padding: 8px;
-      width: 35em;
+      width: 100%;
     }
     a {
       display: inline-block;

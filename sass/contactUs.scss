@@ -67,6 +67,11 @@
 }
 .map {
   position: relative;
+  .map_frame {
+    width: 100%;
+    height: 500px;
+    border: none;
+  }
   .dark_fon {
     cursor: pointer;
     font-size: 48px;

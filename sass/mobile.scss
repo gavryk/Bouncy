@@ -10,6 +10,21 @@
 }
 
 @media (max-width: 768px) {
+    #featured {
+        .project {
+            &:hover {
+                height: 200%;
+                width: 100%;
+            }
+        }
+    }
+    #testimonials {
+        .team_title {
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    }
     #price {
         .price_cards {
             display: flex;

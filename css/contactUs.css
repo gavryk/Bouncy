@@ -1,0 +1,76 @@
+.contact {
+  background-color: #f3f3f3;
+  padding-bottom: 80px; }
+  .contact .contact_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .contact .contact_icons .icon {
+      background-color: #fff;
+      height: 300px;
+      margin-top: 20px; }
+      .contact .contact_icons .icon i {
+        font-size: 38px;
+        color: #fff; }
+      .contact .contact_icons .icon .icon_img,
+      .contact .contact_icons .icon .icon_info {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .contact .contact_icons .icon .icon_info {
+        display: flex;
+        flex-direction: column; }
+      .contact .contact_icons .icon .img-email {
+        background: url("../img/email_icon.jpg") no-repeat center/cover; }
+      .contact .contact_icons .icon .img-office {
+        background: url("../img/office_icon.jpg") no-repeat center/cover; }
+      .contact .contact_icons .icon .img-phone {
+        background: url("../img/phone_icon.jpg") no-repeat center/cover; }
+
+.contact_form {
+  text-align: center;
+  padding: 100px 0; }
+  .contact_form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .contact_form form input,
+    .contact_form form textarea {
+      border: 1px solid #d8dce0;
+      outline: none;
+      padding: 15px 20px;
+      margin: 10px 0;
+      resize: none;
+      width: 100%; }
+    .contact_form form label {
+      width: 100%; }
+    .contact_form form input[type="submit"] {
+      background-color: #19bd9a;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 300; }
+
+.map {
+  position: relative; }
+  .map .map_frame {
+    width: 100%;
+    height: 500px;
+    border: none; }
+  .map .dark_fon {
+    cursor: pointer;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); }
+
+/*# sourceMappingURL=contactUs.css.map */

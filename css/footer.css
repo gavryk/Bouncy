@@ -1,0 +1,27 @@
+footer {
+  text-align: center;
+  padding: 80px 0; }
+  footer .logo a {
+    color: #000;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  footer .footer_icon a {
+    margin: 0 10px;
+    color: #fff; }
+    footer .footer_icon a .fab {
+      display: inline-block;
+      padding: 10px;
+      border-radius: 50%; }
+    footer .footer_icon a .fa-facebook-f {
+      background-color: #3b5998; }
+    footer .footer_icon a .fa-twitter {
+      background-color: #26a6d1; }
+    footer .footer_icon a .fa-linkedin-in {
+      background-color: #0e76a8; }
+    footer .footer_icon a .fa-instagram {
+      background-color: #3f729b; }
+    footer .footer_icon a .fa-vimeo-v {
+      background-color: #86c9ef; }
+
+/*# sourceMappingURL=footer.css.map */

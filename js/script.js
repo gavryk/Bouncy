@@ -35,13 +35,16 @@ down.addEventListener('click', function() {
 });
 
 //scroll up
-up.addEventListener('click', function() {
+function scrollUp() {
     window.scrollTo({
         top: 0,
         behavior: "smooth"
     });
     up.style.display = 'none';
-});
+}
+up.addEventListener('click', scrollUp);
+up.addEventListener('touchstart', scrollUp);
+
 // Add button to top
 window.addEventListener('scroll', function () {
     if(this.pageYOffset > 0) {

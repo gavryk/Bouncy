@@ -1,0 +1,81 @@
+#portfolio {
+  padding-bottom: 80px;
+  background-color: #f3f3f3; }
+  #portfolio .portfolio_navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px; }
+    #portfolio .portfolio_navigation a {
+      display: inline-block;
+      text-decoration: none;
+      margin: 0 20px;
+      color: #000;
+      padding-bottom: 10px; }
+      #portfolio .portfolio_navigation a:hover {
+        border-bottom: 1.5px solid #19bd9a; }
+  #portfolio .portfolio_items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%; }
+    #portfolio .portfolio_items .prtf_colmn {
+      display: flex;
+      flex-direction: column; }
+      #portfolio .portfolio_items .prtf_colmn a {
+        width: 100%;
+        margin: 5px 0;
+        position: relative;
+        overflow: hidden; }
+        #portfolio .portfolio_items .prtf_colmn a img {
+          width: 100%; }
+        #portfolio .portfolio_items .prtf_colmn a::after {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 99%;
+          background-color: rgba(0, 0, 0, 0.5);
+          transition: .7s ease-out; }
+        #portfolio .portfolio_items .prtf_colmn a:hover::after {
+          transform: translateX(-100%);
+          transition: .7s ease-out; }
+        #portfolio .portfolio_items .prtf_colmn a:hover i {
+          transition: .7s ease-out;
+          opacity: 1; }
+        #portfolio .portfolio_items .prtf_colmn a i {
+          position: absolute;
+          color: #fff;
+          top: 40%;
+          left: 40%;
+          font-size: 40px;
+          background-color: rgba(0, 0, 0, 0.8);
+          border-radius: 50%;
+          padding: 10px;
+          opacity: 0;
+          transition: .7s ease-out; }
+          #portfolio .portfolio_items .prtf_colmn a i:hover {
+            background-color: #19bd9a;
+            transition: .7s ease-out; }
+  #portfolio .portfolio_footer {
+    background: url("../img/portfolio_footer.jpg") no-repeat center/cover;
+    padding: 60px 0;
+    text-align: center; }
+    #portfolio .portfolio_footer p {
+      color: #fff;
+      font-size: 18px; }
+    #portfolio .portfolio_footer a {
+      text-decoration: none;
+      color: #fff;
+      display: inline-block;
+      border: 1px solid #fff;
+      border-radius: 20px;
+      padding: 10px 20px;
+      margin-top: 30px;
+      transition: .8s ease-out; }
+      #portfolio .portfolio_footer a:hover {
+        color: #19bd9a;
+        background-color: #fff;
+        transition: .8s ease-out; }
+
+/*# sourceMappingURL=portfolio.css.map */

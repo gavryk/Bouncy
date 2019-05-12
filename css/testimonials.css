@@ -1,0 +1,37 @@
+#testimonials {
+  background-color: #f3f3f3;
+  padding-bottom: 80px; }
+  #testimonials .quotes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #fff;
+    overflow: hidden;
+    padding: 5%; }
+    #testimonials .quotes .author_avatar img {
+      border-radius: 50%; }
+    #testimonials .quotes .main_quote {
+      display: flex; }
+      #testimonials .quotes .main_quote .quote_wrapper {
+        padding-left: 65px; }
+        #testimonials .quotes .main_quote .quote_wrapper .author {
+          display: flex;
+          flex-direction: column; }
+          #testimonials .quotes .main_quote .quote_wrapper .author .author_nick-name {
+            text-transform: uppercase;
+            color: #19bd9a;
+            font-weight: bold; }
+    #testimonials .quotes .btn-slide_quote {
+      margin-top: 20px; }
+      #testimonials .quotes .btn-slide_quote button {
+        padding: 5px;
+        border: 1px solid #19bd9a;
+        background: none;
+        border-radius: 50%;
+        outline: none; }
+        #testimonials .quotes .btn-slide_quote button:hover {
+          background-color: #19bd9a; }
+        #testimonials .quotes .btn-slide_quote button:focus {
+          background-color: #19bd9a; }
+
+/*# sourceMappingURL=testimonials.css.map */

@@ -1,0 +1,43 @@
+#team_quote {
+  height: 400px;
+  background: url("../img/quote_bg.jpg") no-repeat center/cover;
+  position: relative;
+  z-index: -1; }
+  #team_quote::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+    width: 100%;
+    height: 100%; }
+  #team_quote .quote {
+    padding-top: 75px;
+    color: lightgray;
+    line-height: 1.5rem; }
+    #team_quote .quote h3 {
+      font-weight: 100;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      margin-bottom: 50px; }
+    #team_quote .quote .author_quote {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.5rem;
+      text-transform: uppercase;
+      margin-top: 50px; }
+      #team_quote .quote .author_quote .author {
+        font-weight: bold; }
+      #team_quote .quote .author_quote .position {
+        color: #81868e;
+        font-weight: 100; }
+        #team_quote .quote .author_quote .position b {
+          color: #19bd9a;
+          font-weight: bold; }
+  #team_quote .iMac_img {
+    position: absolute;
+    top: -130px;
+    left: 50px; }
+
+/*# sourceMappingURL=quote.css.map */

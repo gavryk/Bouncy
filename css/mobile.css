@@ -5,6 +5,10 @@
   #team_quote .iMac_img {
     display: none; } }
 @media (max-width: 768px) {
+  #about .about .about_bouncy {
+    text-align: center;
+    padding: 80px 0; }
+
   #featured .project:hover {
     height: 200%;
     width: 100%; }

@@ -43,7 +43,7 @@ function scrollUp() {
     up.style.display = 'none';
 }
 up.addEventListener('click', scrollUp);
-up.addEventListener('touchstart', scrollUp);
+up.addEventListener('touch', scrollUp);
 
 // Add button to top
 window.addEventListener('scroll', function () {

@@ -10,6 +10,14 @@
 }
 
 @media (max-width: 768px) {
+    #about {
+        .about {
+            .about_bouncy {
+                text-align: center;
+                padding: 80px 0;
+            }
+        }
+    }
     #featured {
         .project {
             &:hover {
